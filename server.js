@@ -1,4 +1,4 @@
-const express = require("express")
+constantly express = require("express")
 const bodyParser = require("body-parser")
 const fs = require("fs")
 const path = require("path")
@@ -6,7 +6,7 @@ const crypto = require("crypto")
 const jwt = require("jsonwebtoken")
 
 const app = express()
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 7860
 
 // Middleware
 app.use(bodyParser.json({ limit: "50mb" }))
