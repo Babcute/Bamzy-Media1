@@ -37,8 +37,8 @@ if (!fs.existsSync(USERS_FILE)) {
       {
         id: "1",
         name: "Admin User",
-        email: "admin@example.com",
-        password: hashPassword("admin123"),
+        email: "bamzymediatv@gmail.com",
+        password: hashPassword("babcute1000"),
         role: "admin",
         balance: Number.POSITIVE_INFINITY,
         joined: "2023-01-01",
@@ -51,47 +51,6 @@ if (!fs.existsSync(USERS_FILE)) {
         role: "user",
         balance: 100,
         joined: "2023-01-02",
-      },
-    ]),
-  )
-}
-
-if (!fs.existsSync(ACCOUNTS_FILE)) {
-  fs.writeFileSync(
-    ACCOUNTS_FILE,
-    JSON.stringify([
-      {
-        id: "1",
-        platform: "tiktok",
-        image: "https://via.placeholder.com/300",
-        year: 2020,
-        followers: 10000,
-        price: 50,
-        loginDetails: "Username: tiktok_user1\nPassword: password123",
-        description: "TikTok account with 10K followers, mostly in the fashion niche.",
-        status: "available",
-      },
-      {
-        id: "2",
-        platform: "instagram",
-        image: "https://via.placeholder.com/300",
-        year: 2019,
-        followers: 5000,
-        price: 30,
-        loginDetails: "Username: insta_user1\nPassword: password123",
-        description: "Instagram account with 5K followers, focused on travel content.",
-        status: "available",
-      },
-      {
-        id: "3",
-        platform: "twitter",
-        image: "https://via.placeholder.com/300",
-        year: 2018,
-        followers: 8000,
-        price: 40,
-        loginDetails: "Username: twitter_user1\nPassword: password123",
-        description: "Twitter account with 8K followers, tech niche.",
-        status: "sold",
       },
     ]),
   )
